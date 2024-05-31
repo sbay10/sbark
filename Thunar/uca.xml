@@ -1,0 +1,449 @@
+sbarrk3306
+sbarrk3306
+Online
+
+
+
+Text Channel
+ArcoLinux:report-bugs
+First Search our websites and social media channels. First Search our Youtube channel. First Search the Arch Wiki. If you do not find your answer then ... Give us as much information as possible. What hardware are you on? - Type "probe" in your terminal and provide us with the link. What iso are you on? - Type "iso" in a terminal. What settings have you used? - Type "sudo use" in a terminal. What desktop are you on? - Type "neofetch" in a terminal What application are we talking about? - Full name in pacman or yay/paru Are you using the ArcoLinux configs or did you change something?
+Search
+
+report-bugs chat
+May 12, 2024
+
+ArcoLinux Stephen — 05/12/2024 2:04 PM
+24.05-03 is the latest
+
+mastnacek — 05/12/2024 2:12 PM
+Updating every day
+[2:13 PM]
+Att button say install. Trasger are installed by default.
+May 13, 2024
+
+@mastnacek
+Here, runing DesektopTrasher and button in ATT
+
+fennec — 05/13/2024 10:23 AM
+This is a minor UX issue since ADT is already installed the button should not read "Install the ArcoLinux Desktop Trasher"
+[10:23 AM]
+
+[10:25 AM]
+Code change required and i've opened a PR
+[10:25 AM]
+https://github.com/arcolinux/archlinux-tweak-tool-dev/pull/11
+GitHub
+UX fix. Update ADT button label if package is installed/not by Delt...
+If ADT is already installed label now shows "Remove the ArcoLinux Desktop Trasher" else it shows "Install the ArcoLinux Desktop Trasher"
+
+[10:29 AM]
+and any future ATT issues please direct them to the appropriate channel - ⁠report-archlinux-tweak-tool-iss…
+
+ArcoLinux Erik — 05/13/2024 7:22 PM
+
+[7:22 PM]
+accepted
+[7:24 PM]
+launching the ADT is via the menu of the desktop you are on (edited)
+May 29, 2024
+
+Rudy ツ — Yesterday at 10:30 AM
+Calamares requires manual partitioning for installing grub or else it would return errors
+[10:33 AM]
+Calamares does not install grub onto /boot/efi?
+[10:33 AM]
+It formats my 120 GB dual boot partition with ext4 and does not install grub I found out the issue
+
+ArcoLinux Erik — Yesterday at 12:08 PM
+ok then
+[12:08 PM]
+we do not dual boot
+[12:09 PM]
+let us continue talking here if and when needed
+
+@ArcoLinux Erik
+we do not dual boot
+
+Rudy ツ — Yesterday at 12:36 PM
+my school teaches me MS office and stuff
+[12:36 PM]
+MS office 2016 in specific
+[12:37 PM]
+and it cant work with wine
+[12:38 PM]
+and sometimes my dad requires this laptop because of MS office
+[12:38 PM]
+the thing i need is ms office at the end
+[12:38 PM]
+so dual boot is just fine
+
+Velkin — Yesterday at 1:33 PM
+@Rudy ツ  Have you tried the free online version of Microsoft Office? https://www.microsoft.com/en-us/microsoft-365/free-office-online-for-the-web
+Free Microsoft 365 Online | Word, Excel, PowerPoint
+With Microsoft 365 for the web you can edit and share Word, Excel, PowerPoint, and OneNote files on your devices using a web browser.
+
+@Velkin
+@Rudy ツ  Have you tried the free online version of Microsoft Office? https://www.microsoft.com/en-us/microsoft-365/free-office-online-for-the-web
+
+Rudy ツ — Yesterday at 1:44 PM
+yes
+[1:44 PM]
+and that sucks
+
+ArcoLinux Erik — Yesterday at 3:24 PM
+Use windows and learn linux in a virtual machine
+[3:24 PM]
+And do not dual boot
+
+@ArcoLinux Erik
+And do not dual boot
+
+Rudy ツ — Yesterday at 4:19 PM
+I used to do that but I do not wanna do it anymore
+[4:19 PM]
+vms are laggy
+[4:20 PM]
+And the reason why I am using linux is to create a package manager for my linux distro I am making
+[4:20 PM]
+I am now just gonna use xfce
+[4:20 PM]
+Style it a bit maybe for work
+[4:20 PM]
+Using c
+[4:20 PM]
+I can use Carli for it's ISO?
+[4:22 PM]
+For a wm I can use bspwm
+
+ArcoLinux Erik — Yesterday at 4:52 PM
+Have fun
+
+@ArcoLinux Erik
+Have fun
+
+Rudy ツ — Yesterday at 5:59 PM
+Same to you
+[5:59 PM]
+Take care too
+May 30, 2024
+
+Scarecrow — Today at 6:11 AM
+I am facing one issue when I tried installing arcoplasma, grub was not installed, there was a warning saying something related to recommended settings where it requires 2000mib efi partition when I marked a 300mib efi partition as boot and bios-grub and a 100gib root  btrfs root partition.
+After installation is done it directly goes to fallback mode
+
+sbarrk3306 — Today at 6:42 PM
+thunar right click im in Acro  hyprland  and some times dont show the right click option
+
+
+ArcoLinux Stephen — Today at 6:47 PM
+my right click works fine here on hyprland
+[6:48 PM]
+u should have the orginal files still in skel u can copy them over manually
+
+sbarrk3306 — Today at 6:49 PM
+i don't know why i format my pc tow times
+
+ArcoLinux Stephen — Today at 6:50 PM
+u shouldnt need to format like i said in skel u have a .config folder in theres is thunar just copy it over to .config and overwrite
+
+sbarrk3306 — Today at 6:50 PM
+i did that many times i coped the skel config
+
+ArcoLinux Stephen — Today at 6:51 PM
+give me a min ill reboot into hyprland
+[6:58 PM]
+
+
+ArcoLinux Stephen — Today at 6:58 PM
+u can if u wish reinstall hyprland from att
+
+sbarrk3306 — Today at 6:59 PM
+ok thank you i will try reinstall it from att
+
+sbarrk3306 — Today at 7:13 PM
+same problem 
+
+
+ArcoLinux Stephen — Today at 7:15 PM
+are you wanting it the same as mine (edited)
+
+sbarrk3306 — Today at 7:17 PM
+yes
+[7:17 PM]
+some time the option dont appear at all
+[7:18 PM]
+hide some where
+
+ArcoLinux Stephen — Today at 7:18 PM
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+<icon>utilities-terminal</icon>
+<name>Open Terminal Here</name>
+<submenu></submenu>
+Expand
+uca.xml
+7 KB
+[7:18 PM]
+stick that in ur thunar
+[7:18 PM]
+.config/Thunar/
+
+Message #report-bugs
+﻿
+
+
+
+
+
+
+
+
+ to select
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1488955845049151-1</unique-id>
+	<command>alacritty</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>meld</icon>
+	<name>Compare</name>
+	<submenu></submenu>
+	<unique-id>1492232362549799-1</unique-id>
+	<command>meld %F</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>system-file-manager-root</icon>
+	<name>Open folder as root</name>
+	<submenu></submenu>
+	<unique-id>1493475601060449-3</unique-id>
+	<command>pkexec thunar %f</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>gitahead</icon>
+	<name>Open with gitahead</name>
+	<submenu></submenu>
+	<unique-id>1587287434852027-1</unique-id>
+	<command>gitahead %F</command>
+	<description>Open with gitahead</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>gitfiend</icon>
+	<name>Open with gitfiend</name>
+	<submenu></submenu>
+	<unique-id>1587287435012027-1</unique-id>
+	<command>gitfiend %F</command>
+	<description>Open with gitfiend</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check sha1sum</name>
+	<submenu></submenu>
+	<unique-id>1526633271260079-26</unique-id>
+	<command>zenity --info --title=&quot;Check sha1 for %n&quot; --text=&quot;$(sha1sum %f)&quot;</command>
+	<description>Check sha1sum</description>
+	<range></range>
+	<patterns>*.iso;*.ISO</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check sha256sum</name>
+	<submenu></submenu>
+	<unique-id>1577688162350307-1</unique-id>
+	<command>zenity --info --title=&quot;Check sha256 for %n&quot; --text=&quot;$(sha256sum %f)&quot;</command>
+	<description>Check sha256sum</description>
+	<range></range>
+	<patterns>*.iso;*.ISO</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check md5sum</name>
+	<submenu></submenu>
+	<unique-id>1526736788575383-2</unique-id>
+	<command>zenity --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum %f)&quot;</command>
+	<description>Check md5sum</description>
+	<range></range>
+	<patterns>*.iso;*.ISO;*.tar.gz;*.TAR.GZ;*.zip;*.ZIP</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>catfish</icon>
+	<name>Search with catfish</name>
+	<submenu></submenu>
+	<unique-id>1489089852658523-2</unique-id>
+	<command>catfish --path=$f$d</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>archive-extract</icon>
+	<name>Extract here</name>
+	<submenu></submenu>
+	<unique-id>1489091300385082-4</unique-id>
+	<command>tar xjf %n</command>
+	<description></description>
+	<range></range>
+	<patterns>*.tar.bz2;*.tbz2</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>cs-startup-programs</icon>
+	<name>Run</name>
+	<submenu></submenu>
+	<unique-id>1526630606202525-4</unique-id>
+	<command>urxvt -e %f</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>system-reboot</icon>
+	<name>Convert png to jpg</name>
+	<submenu></submenu>
+	<unique-id>1510662686010963-1</unique-id>
+	<command>convert %f -quality 90 `basename %f .png`.jpg</command>
+	<description>Convert png to jpg</description>
+	<range></range>
+	<patterns>*.png</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>system-reboot</icon>
+	<name>Convert webp to jpg</name>
+	<submenu></submenu>
+	<unique-id>1510662686010963-2</unique-id>
+	<command>convert %f -quality 90 `basename %f .webp`.jpg</command>
+	<description>Convert webp to jpg</description>
+	<range></range>
+	<patterns>*.webp</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>gksu-root-terminal</icon>
+	<name>Ownership to root</name>
+	<submenu></submenu>
+	<unique-id>1526631155250282-8</unique-id>
+	<command>gnome-keyring-daemon -r -d;gksu &quot;chown -R root:root %F&quot;</command>
+	<description>Change permissions to root</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>system-switch-user</icon>
+	<name>Ownership to user</name>
+	<submenu></submenu>
+	<unique-id>1526631178674034-9</unique-id>
+	<command>gnome-keyring-daemon -r -d;gksu &quot;chown -R $USER:$USER %F&quot;</command>
+	<description>Change permissions to user</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>application-x-executable</icon>
+	<name>Make executable</name>
+	<submenu></submenu>
+	<unique-id>1526670239648084-2</unique-id>
+	<command>chmod +x %f</command>
+	<description>Make a file execuble</description>
+	<range></range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>conky-manager</icon>
+	<name>Conkyzen</name>
+	<submenu></submenu>
+	<unique-id>1510943357717982-3</unique-id>
+	<command>am-conkyzen</command>
+	<description>conkyzen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>com.deepin.ScreenShot</icon>
+	<name>Set as wallpaper DS</name>
+	<submenu></submenu>
+	<unique-id>1637670737487118-1</unique-id>
+	<command>feh --bg-fill --no-xinerama %f</command>
+	<description>Set as wallpaper using feh dual screen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>kscreenshot</icon>
+	<name>Set as wallpaper SS</name>
+	<submenu></submenu>
+	<unique-id>1637670897220972-2</unique-id>
+	<command>feh --bg-fill %f</command>
+	<description>Set as wallpaper using feh single screen</description>
+	<range></range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>insert-link-symbolic</icon>
+	<name>Create symlink</name>
+	<submenu></submenu>
+	<unique-id>1526631663081446-14</unique-id>
+	<command>ln -s  %f &quot;%n&quot;</command>
+	<description>Softlink between two files or directories</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
+uca.xml
+7 KB
